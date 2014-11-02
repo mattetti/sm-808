@@ -62,6 +62,7 @@ song.play
 ```
 
 ![Output example](/drummachine-kata.gif?raw=true)
+
 (ignore the audio outputs print at the beginning but pay attention to
 the output speed at a BPM of 128)
 
