@@ -86,3 +86,12 @@ interested in discussing:
   None of these features are expected, what is needed for you to add
   support for these?
 * Is your code tested? Why/why not? How would you test it (or better)?
+
+
+### Submit your solution
+
+If you want your solution to be reviewed you can:
+
+* email me your implementation as a zip or link to your repo (for candidates we are interviewing only)
+* fork this repo and send a PR (community reviewed)
+* create an issue with the url for your implementation (community reviewed)
