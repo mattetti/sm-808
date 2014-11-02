@@ -67,7 +67,7 @@ Outputing the patterns in tempo isn't required for this exercise,
 however if you wish to do so you might need some extra information.
 At a 4/4 time signature of 60 BPM (beats per minute), we get 1 beat per second.
 We can assume that 8 steps = 1 bar, representing 4 beats.
-In other words, a 8 step pattern would take `(BPM/60)*4` seconds to play and each step would take `((BPM/60)*4)/8` seconds.
+In other words, a 8 step pattern would take `(60/BPM)*4` seconds to play and each step would take `((60/BPM)*4)/8` seconds.
 
 ### Splice Evaluation
 
