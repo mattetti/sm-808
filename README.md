@@ -61,6 +61,10 @@ song.play
 // |Kick|_|HiHat|_|Kick+Snare|_|HiHat|_|Kick|_|HiHat|.....
 ```
 
+![Output example](/drummachine-kata.gif?raw=true)
+(ignore the audio outputs print at the beginning but pay attention to
+the output speed at a BPM of 128)
+
 ### Timing information
 
 Outputing the patterns in tempo isn't required for this exercise, 
@@ -68,6 +72,23 @@ however if you wish to do so you might need some extra information.
 At a 4/4 time signature of 60 BPM (beats per minute), we get 1 beat per second.
 We can assume that 8 steps = 1 bar, representing 4 beats.
 In other words, a 8 step pattern would take `(60/BPM)*4` seconds to play and each step would take `((60/BPM)*4)/8` seconds.
+
+
+### Extra mile
+
+* Try mix and matching patters of different durations (8, 16, 32 steps),
+  note that if you have 2 patterns, one 8 and one 16, the 8 should play
+  twice while the 16 plays once.
+* Add support for velocity (the amplitude/volume of a note).
+* Try to output sound (OS X has the `say` command, windows as `ptts`,
+  also most language have bindings for [portaudio](http://www.portaudio.com/)
+
+If you can't stop:
+
+* How about live play? Can you allow users to add/remove/change patterns
+  while playing?
+* Make it even more interactive and add a web interface/GUI.
+
 
 ### Splice Evaluation
 
