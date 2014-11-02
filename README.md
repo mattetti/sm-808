@@ -38,6 +38,7 @@ generate a real time visual representation of the sequence being played.
 * Your code will be executed on the command line or in the browser.
 * Try to keep external dependencies to a minimum.
 * See next section to see what to output.
+* The output isn't expected to be in sync with the tempo/BPM (bonus points if you manage to do it).
 
 
 ### Expected output
@@ -59,6 +60,14 @@ song.play
 // -> real time output
 // |Kick|_|HiHat|_|Kick+Snare|_|HiHat|_|Kick|_|HiHat|.....
 ```
+
+### Timing information
+
+Outputing the patterns in tempo isn't required for this exercise, 
+however if you wish to do so you might need some extra information.
+At a 4/4 time signature of 60 BPM (beats per minute), we get 1 beat per second.
+We can assume that 8 steps = 1 bar, representing 4 beats.
+In other words, a 8 step pattern would take `(BPM/60)*4` seconds to play and each step would take `((BPM/60)*4)/8` seconds.
 
 ### Splice Evaluation
 
