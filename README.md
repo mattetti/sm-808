@@ -23,28 +23,12 @@ your own version of the famous [four-on-the-floor](http://en.wikipedia.org/wiki/
 Note that instead of hearing an actual sound, you are expected to
 generate a real time visual representation of the sequence being played.
 
-### Extra info
-
-* A song contains multiple patterns being sequenced for different
-  samples.
-* A song plays at a given tempo (AKA bpm), the tempo does not need to
-  be able change while the song plays.
-* For this exercise, you are expected to implement 3 patterns for the
-  following sounds/samples: kick, snare and
-  hihat (you can use the example pattern or come up with your own).
-* The time signature is expected to be 4/4 (if you don't know what that
-  is, don't worry and ignore this instruction).
-* The pattern is expected to be 8 steps or more.
-* Your code will be executed on the command line or in the browser.
-* Try to keep external dependencies to a minimum.
-* See next section to see what to output.
-* The output isn't expected to be in sync with the tempo/BPM (bonus points if you manage to do it).
-
-
 ### Expected output
 
 Here is some pseudo code showing the expected interaction and one way to
 represent the output (you are encouraged to find a better way).
+You can use a command line output, work in the browser or send use an electric circuit.
+Use whatever programming language you want, as long as we can execute your solution.
 
 ```
 // create a new song
@@ -65,6 +49,24 @@ song.play
 
 (ignore the audio outputs print at the beginning but pay attention to
 the output speed at a BPM of 128)
+
+### Extra info
+
+* A song contains multiple patterns being sequenced for different
+  samples.
+* A song plays at a given tempo (AKA bpm), the tempo does not need to
+  be able change while the song plays.
+* For this exercise, you are expected to implement 3 patterns for the
+  following sounds/samples: kick, snare and
+  hihat (you can use the example pattern or come up with your own).
+* The time signature is expected to be 4/4 (if you don't know what that
+  is, don't worry and ignore this instruction).
+* The pattern is expected to be 8 steps or more.
+* Your code will be executed on the command line or in the browser.
+* Try to keep external dependencies to a minimum.
+* See next section to see what to output.
+* The output isn't expected to be in sync with the tempo/BPM (bonus points if you manage to do it).
+
 
 ### Timing information
 
