@@ -1,12 +1,15 @@
 # SM-808 Practice exercise
 
-The goal of this exercise is to practice designing models and
-interfaces.
+The goal of this exercise is to practice designing models,
+interfaces and defing APIs.
 
 There aren't good or bad solutions, there are solutions that
 match the requirements and some that don't. There are solutions that
 might be considered elegant by some and solutions that would be
 considered clever.
+
+Feel free to use any programming language/framework you fancy, I'd personally love to see submissions in [elm-lang](http://elm-lang.org/), [elixir](http://elixir-lang.org/) or [rust](http://www.rust-lang.org/).
+I've already receieved awesome submissions in Ruby, JS, Angular.js and Go.
 
 ## Building a Drum Machine
 
@@ -49,6 +52,8 @@ song.play
 
 (ignore the audio outputs print at the beginning but pay attention to
 the output speed at a BPM of 128)
+
+If you decide to generate an output, [here is how the example pattern played on a tr-808 at 128 BPM](https://drive.google.com/file/d/0Bx7t4b0VA8_1Nkdhanowd3d5aEU/view?usp=sharing).
 
 ### Extra info
 
