@@ -8,8 +8,9 @@ match the requirements and some that don't. There are solutions that
 might be considered elegant by some and solutions that would be
 considered clever.
 
-Feel free to use any programming language/framework you fancy, I'd personally love to see submissions in [elm-lang](http://elm-lang.org/), [elixir](http://elixir-lang.org/) or [rust](http://www.rust-lang.org/).
-I've already receieved awesome submissions in Ruby, JS, Angular.js and Go.
+Feel free to use any programming language/framework you fancy, I'm personally curious to see submissions in [elm-lang](http://elm-lang.org/), [elixir](http://elixir-lang.org/) or [rust](http://www.rust-lang.org/).
+I've already receieved awesome submissions in Ruby, JS, Angular.js, Rust and Go.
+If you are applying for a job at Splice note that submissions in Go, js/Angular.js, Objective-C/Swift and C# are preferred.
 
 ## Building a Drum Machine
 
